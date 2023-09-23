@@ -1,0 +1,49 @@
+This is just some historical code from 2006-2007 that I've rediscovered.
+During that time I was learning how to program in Python.
+I needed an SQLite console, but the only one available (that I came across)
+was SQLite's own console which required TCL to be installed.
+So I decided to write my own!
+
+I kept all files in the "DB Console" project as is, except added this note in the README
+and added `dbconsole3.py` which has the minimum changes to `dbconsole.py` to make it run on Python3.
+
+Yüce Tekol
+2023-09-23
+
+Original README below:
+
+DB Console 0.6.6
+================
+
+:author:
+    Yuce Tekol. <http://www.geocities.com/yucetekol>
+
+Introduction
+------------
+
+'dbcons' is a simple console for databases supporting Python db-api 2, such as SQLite, PostgreSQL and MySQL.
+
+DBConsole is dedicated to the nice people behind Python DBAPI-2.
+
+Requirements:
+* Python 2.4 (most probably other versions will also work).
+* Sqlite 3
+* PySqlite 2.x
+
+Install
+-------
+
+- Unpack the archive to some directory,
+
+- Make sure ``dbconsole.py`` is executable::
+
+    $ chmod +x dbconsole.py
+
+- Copy ``dbconsole.py`` to somewhere on the path, or create a symbolink link. On
+UN*X, you could do::
+    
+    $ sudo ln -s `pwd`/dbconsole.py /usr/bin/dbcons
+
+- Create a directory ``~/.dbcons`` and copy ``help.txt`` there.
+
+

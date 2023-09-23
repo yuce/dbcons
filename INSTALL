@@ -1,0 +1,15 @@
+
+Installing DB Console
+=====================
+
+Requirements
+------------
+
+* Python 2.4 and upper (Python 2.3 should also work)
+* PySQLite 2.x and SQLite 3.x for SQLite support (Python 2.5 has these)
+* Psycopg 1.x and PostgreSQL 8.x for PostgreSQL support
+* MySQLdb 1.2.x and MySQL 5.x for MySQL support
+* Readline is only supported on Linux and other UNIXish systems. For Windows
+  you need a workaround (?).
+
+

@@ -1,0 +1,58 @@
+
+======================
+DB Console User Manual
+======================
+
+:Version:
+    0.6.6
+:Author:
+    Yüce Tekol <http://purl.org/NET/tekol/yuce/home>
+:License:
+    DB Console is released under GNU Public License (see ``COPYING``). This document is released under GNU Free Documentation License.
+
+
+Introduction
+------------
+
+DB Console is a simple SQL shell for some of the databases supporting Python
+DB-API 2, currently they are: SQLite, PostgreSQL and MySQL. Adding support for other
+databases which has a DB-API 2 interface should be trivial, and patches that add this
+functionality are highly welcome.
+
+DB Console runs where Python runs, but it is being devolped on (Ubuntu 6.06) Linux
+and also tested on MS-Windows XP; prior versions are known to work on FreeBSD
+6.0.
+
+Development platform
+....................
+
+* Ubuntu 6.06.1 (Dapper)
+* Python 2.4.3
+* SQLite 3.2.8 with PySQLite 2.0.5
+* PostgreSQL 8.1.4 with Psycopg 1.1.21
+* MySQL 5.0.22 with MySQLdb 1.2.1g3
+
+
+Obtaining and Installing
+------------------------
+
+DB Console is hosted at http://dbcons.berlios.de and also Python Cheeseshop;
+you can obtain it in source form.
+
+Requirements
+............
+
+* Python 2.4 and above (Python 2.3 should also work, but not tested)
+* PySQLite 2.x and SQLite 3.x for SQLite support
+* Psycopg 1.x and PostgreSQL 8.x for PostgreSQL support
+* MySQLdb 1.2.x and MySQL 5.x for MySQL support
+* Readline is only supported on Linux and other UNIXish systems. For Windows
+  you need a workaround (TODO: Write the ipython solution).
+
+Installing
+..........
+
+Please see ``INSTALL``.
+
+
+
